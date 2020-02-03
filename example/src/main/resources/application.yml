@@ -1,0 +1,11 @@
+spring:
+                datasource:
+                  url: jdbc:mysql://localhost:3306/SalaryManagementSystem
+                  driverClassName: com.mysql.cj.jdbc.Driver
+                  username: root
+                  password: Liangqian1994
+                jpa:
+                  database: MySQL
+                  hibernate:
+                    ddl-auto: update  # 第一次简表create  后面用update
+                  show-sql: true

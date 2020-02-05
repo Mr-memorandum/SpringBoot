@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+staff:
+  name: LiMing
+  age: 28
+  birth: 1990/12/5
+  manager: false
+  map: {k1: spring,k2: 2019}
+  list:
+    - Tom
+    - Mike
+    - Alice
+  salary:
+    baseSalary: 15000
+    bonus: 30000
